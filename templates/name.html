@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Name page</title>
+
+{% endblock %}
+
+
+{% block body %}
+
+    <h1>Hello, Enter your Name</h1>
+
+    <form action='/test' method='POST'>
+        <br>
+        <div class="form-group">
+            <label for="data">Enter your Name:</label>
+            <input type="text" name="data" class="form-control" id="data" >
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit">
+
+    </form>
+
+
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>home</title>
+    <!--link rel="stylesheet" href="/static/style.css"/-->
+{% endblock %}
+
+{% block body %}
+    <h1>This is a demo websites for testing</h1>
+    <!--p style="font-family:'Courier New'">This is another paragraph.</p-->
+
+    <h1> Hello{{ name }}! </h1>
+    <form action="/test">
+        <input type="submit" value="Go to test page" />
+    </form>
+    <br>
+    <form action="/">
+        <input type="submit" value="Go to home page" />
+    </form>
+{% endblock %}
