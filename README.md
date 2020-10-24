@@ -53,3 +53,5 @@ Report [here](https://github.com/Saketh-Chandra/flask_basic/issues/new) in detai
 # :scroll: How do I contact the team?
 
 Check [here](https://github.com/Saketh-Chandra/flask_basic/graphs/contributors) for the list of contributors. Contact one of them through their profiles.
+
+## Have a great time!!!
