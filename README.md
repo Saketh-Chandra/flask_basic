@@ -1,13 +1,13 @@
 # This is a test website made with Flask and Bootstrap
 
-This a sample web application, using the [Flask](http://flask.pocoo.org/) web application framework
+This a sample web application, using the [Flask](http://flask.pocoo.org/) web application framework.
 
 A running instance of it can be found at " 
 [https://a-test-website.herokuapp.com/](https://a-test-website.herokuapp.com/) ".
 
 # :book: How to use the repository?
 ## Setup
-``` 
+```bash
 git clone https://github.com/Saketh-Chandra/flask_basic.git
 cd flask_basic
 pip install -r requirements.txt
